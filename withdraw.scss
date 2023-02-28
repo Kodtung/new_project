@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gloock', serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #b35a20 ,#e8891d, #bfd5c9 ,#05a3a4 ,#006373);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 800px;
+    background: rgba(255, 255, 255, .5);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.icon-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-icon{
+    align-items: left;
+    margin-right: 2px;
+    padding: 1rem;
+}
+
+.user-icon img{
+    width: 200px;
+    height: 200;
+}
+
+.user-info{
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.user-info .name{
+    font-size: 50px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.user-info .info{
+    font-size: 20px;
+    color: #727272;
+    margin-top: 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.content input[type="text"]{
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, .3);
+    padding: 2.5rem 3rem;
+    padding-left: 100px;
+    border-radius: 100px;
+    width: 100%;
+    transition: background .5s;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.content input:focus{
+    background: white;
+}
+
+.content .add button{
+    background: #7dff41;
+    color: rgb(47, 47, 47);
+    padding: 1.8rem 1.8rem;
+    border-radius: 1000px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background .5s;
+    text-align: center;
+    font-size: larger;
+}
+
+.content .add button:hover{
+    background-color: #c9ffc3;
+    cursor: pointer;
+}
+
+.content .back button{
+    background: #505050;
+    color: white;
+    padding: 1.8rem 1.8rem;
+    border-radius: 1000px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background .5s;
+    text-align: center;
+    font-size: larger;
+}
+
+.content .back button:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.content .button {
+    display: flex;
+    flex-direction: flex;
+    gap: 5rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+.head{
+    text-align: center;
+    font-size: 24px;
+    color: #373737;
+    font-weight: 100;
+    position: relative;
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.button img{
+    width: 130px;
+    height: 130px;
+}
